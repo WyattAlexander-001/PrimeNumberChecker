@@ -26,8 +26,10 @@ def main():
                 print(f"{num}, is a COMPOSITE number")
                 break
         else:
-    
             print(f"{num}, is a PRIME number")
+    else:
+        print(f"{num}, is PRIME number")   
+    
     
     x = input('Try again? Type yes or no\n').lower()
     if x == 'yes':
